@@ -1,3 +1,7 @@
+//Bradley Mixon
+//CS3377.505 Assignment 8
+//3-29-23
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
