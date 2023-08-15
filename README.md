@@ -27,4 +27,7 @@ speedup = (time taken for single thread)/(time taken for n threads)
 
 Project Report:
 
+The experimental setup consists of a Linux server (cs3.utdallas.edu) with 48 CPUs. Based on observations from the included graphs, it can be generally expected that the time taken to compute the hash value decreases when the number of threads increases. There are exceptions when this does not happen, which can likely be attributed to a normal deviation in CPU performance, possibly due to the number of users connected to the server or other outside factors. Yet in almost every case, the run time decreases as the number of threads increased. However, the speedup achieved increased as the number of threads also increased. The speedup is not directly proportional to the number of threads. The biggest difference is seen in the run time for 1 thread vs the run time for 4 threads. Going from 1 to 4 makes a large difference, but every incremental addition to the number of threads after that only results in a marginal decrease in runtime.
+
+
 
